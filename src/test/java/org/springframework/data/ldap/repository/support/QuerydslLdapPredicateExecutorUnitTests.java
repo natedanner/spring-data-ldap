@@ -53,7 +53,8 @@ class QuerydslLdapPredicateExecutorUnitTests {
 
 	@Mock LdapOperations ldapOperations;
 
-	UnitTestPerson walter, hank;
+	UnitTestPerson walter;
+	UnitTestPerson hank;
 
 	QuerydslLdapPredicateExecutor<UnitTestPerson> repository;
 

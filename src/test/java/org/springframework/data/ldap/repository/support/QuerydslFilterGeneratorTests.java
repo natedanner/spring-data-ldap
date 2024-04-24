@@ -30,9 +30,9 @@ import com.querydsl.core.types.Expression;
  */
 class QuerydslFilterGeneratorTests {
 
-	private ObjectDirectoryMapper odm = new DefaultObjectDirectoryMapper();
-	private LdapSerializer tested = new LdapSerializer(odm, UnitTestPerson.class);
-	private QPerson person = QPerson.person;
+	private final ObjectDirectoryMapper odm = new DefaultObjectDirectoryMapper();
+	private final LdapSerializer tested = new LdapSerializer(odm, UnitTestPerson.class);
+	private final QPerson person = QPerson.person;
 
 	@Test
 	void testEqualsFilter() {

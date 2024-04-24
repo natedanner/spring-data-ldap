@@ -47,7 +47,8 @@ class LdapRepositoryUnitTests {
 
 	@Mock LdapOperations ldapOperations;
 
-	UnitTestPerson walter, hank;
+	UnitTestPerson walter;
+	UnitTestPerson hank;
 
 	PersonRepository repository;
 

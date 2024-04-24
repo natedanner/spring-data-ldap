@@ -40,7 +40,7 @@ public class LdapRepositoryFactoryBean<T extends Repository<S, Name>, S>
 		extends RepositoryFactoryBeanSupport<T, S, Name> {
 
 	private @Nullable LdapOperations ldapOperations;
-	private boolean mappingContextConfigured = false;
+	private boolean mappingContextConfigured;
 	private @Nullable MappingContext<? extends PersistentEntity<?, ?>, ? extends PersistentProperty<?>> mappingContext;
 
 	/**

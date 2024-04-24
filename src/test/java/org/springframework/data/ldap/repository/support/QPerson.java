@@ -35,7 +35,7 @@ public class QPerson extends EntityPathBase<UnitTestPerson> {
 
 	public final StringPath fullName = createString("fullName");
 
-	public final ListPath<String, StringPath> description = this.<String, StringPath> createList("description",
+	public final ListPath<String, StringPath> description = this. createList("description",
 			String.class, StringPath.class, PathInits.DIRECT2);
 
 	public final StringPath lastName = createString("lastName");
